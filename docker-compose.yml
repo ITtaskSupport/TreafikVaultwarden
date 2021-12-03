@@ -70,6 +70,7 @@ services:
       - ./bitwarden/backend/data:/data
     environment:
       - WEBSOCKET_ENABLED=true
+      - ADMIN_TOKEN=Azerty123456789
     networks:
       - docknet
     logging:
